@@ -51,6 +51,9 @@ function doVote(stars) {
         }
         $("#voteResultMsg").html(result["message"]);
         $("#voteResultMsg").show();
+        
+        $("#voteResultMsg").html(result["message"]);
+        $("#voteResultMsg").show();
     })
     loadVotes();
     average();
